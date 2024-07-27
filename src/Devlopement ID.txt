@@ -1,0 +1,4 @@
+dev-81phlm2iwwjfy483.us.auth0.com (Domain ID)
+
+0LxuENyyTahtPJMfp78PNY2ZDAy8CPmE (Client ID)
+

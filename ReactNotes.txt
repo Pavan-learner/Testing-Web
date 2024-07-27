@@ -1,0 +1,31 @@
+Video 10: [code with harry]
+Dark Mode using state 
+
+  const [myStyle, setmyStyle] = useState({
+    color: "black",
+    backgroundColor: "white",
+  })
+
+  return (
+    <div className="content" style={myStyle}>
+      <h1>Hey i am new for react</h1>
+
+      <div className="buttons">
+        <button 
+        onClick={() => {setmyStyle({
+          color:'white',
+          backgroundColor:"black",
+        })}}
+        >Enabel Dark Mode</button>
+
+        <button
+           onClick={() => {setmyStyle({
+            color:'black',
+            backgroundColor:"white",
+          })}}
+        >Disable Dark Mode</button>
+      </div>
+  )
+
+
+  // In this file we are going to learn about the react redux concept and building one e-co
