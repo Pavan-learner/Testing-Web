@@ -1,7 +1,7 @@
 import React from 'react'
 
 const App = () => {
-  const phoneNumber = '+1234567890'; // Replace with the desired phone number
+  const phoneNumber = '+91 9900718715'; // Replace with the desired phone number
 
   const handleDial = () => {
     // Using 'tel:' URI scheme to open the phone dialer
